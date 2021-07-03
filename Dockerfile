@@ -9,4 +9,4 @@ RUN pip install black==${BLACK_VERSION} \
     flake8==${FLAKE_8_VERSION} \
     isort==${ISORT_VERSION} \
     pytest==${PYTEST_VERSION} \
-    && makedir workspace
+    && mkdir workspace
