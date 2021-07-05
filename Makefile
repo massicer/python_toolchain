@@ -1,4 +1,5 @@
 IMAGE_NAME=python_toolchain
+TAG ?= local
 
 local_image = ${IMAGE_NAME}:${TAG} 
 registry_image = ${REGISTRY}/${IMAGE_NAME}:${TAG}
