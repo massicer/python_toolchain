@@ -12,6 +12,6 @@ published on docker-hub. Here you can find the related [url](https://hub.docker.
 
 You can use following commands:
 
-- `make build TAG="your-tag"
-- `make publish TAG="your-tag" REGISTRY="docker-hub/my-name"
+- `make build TAG="your-tag`
+- `make publish TAG="your-tag" REGISTRY="docker-hub/my-name`
 - `make shell`
