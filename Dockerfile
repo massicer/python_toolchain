@@ -12,6 +12,7 @@ RUN pip install black==${BLACK_VERSION} \
     flake8==${FLAKE_8_VERSION} \
     isort==${ISORT_VERSION} \
     pytest==${PYTEST_VERSION} \
-    pytest-cov==${PYTEST_COV_VERSION} 
+    pytest-cov==${PYTEST_COV_VERSION} \
+    poetry
 
 COPY ./shared ./shared

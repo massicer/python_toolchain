@@ -5,7 +5,7 @@ LINE_LENGTH ?= 120
 .PHONY: test
 test:
 	PYTHONPATH="$(PROJECT_SRC_DIRECTORY):$(PYTHONPATH)" \
-	pytest \
+	poetry run pytest \
 	--cov=$(PROJECT_SRC_DIRECTORY) \
 	--verbose \
 	--cov-branch \
